@@ -1,5 +1,5 @@
 
-import  React, { useEffect, useState } from "react";
+import  React, { useEffect, useState ,useReducer} from "react";
 import "./Home.scss";
 import axios from "axios";
 import { Link } from "react-router-dom";
